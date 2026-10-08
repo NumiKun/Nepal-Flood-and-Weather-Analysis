@@ -1,0 +1,43 @@
+{
+    "feature_columns": [
+        "location",
+        "river",
+        "basin",
+        "latitude",
+        "longitude",
+        "elevation_m",
+        "precipitation_mm",
+        "soil_moisture_0_100cm_m3m3",
+        "rain_mm",
+        "temperature_mean_c",
+        "dew_point_mean_c",
+        "precipitation_hours",
+        "relative_humidity_mean_pct",
+        "wind_speed_max_kmh",
+        "wind_gusts_max_kmh",
+        "wind_direction_dominant_deg",
+        "river_discharge_m3s",
+        "flood_threshold",
+        "flood_risk_today",
+        "day_of_year",
+        "month",
+        "monsoon_season",
+        "sin_doy",
+        "cos_doy",
+        "precip_roll_3d",
+        "precip_roll_7d",
+        "rain_roll_3d",
+        "discharge_roll_3d_mean",
+        "discharge_roll_3d_max",
+        "discharge_diff_1d",
+        "soil_moisture_diff_1d",
+        "discharge_to_threshold_ratio"
+    ],
+    "categorical_columns": [
+        "location",
+        "river",
+        "basin"
+    ],
+    "target_column": "target_flood_alert_next_day",
+    "feature_count": 32
+}

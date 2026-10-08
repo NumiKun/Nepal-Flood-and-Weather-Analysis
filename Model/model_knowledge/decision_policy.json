@@ -1,0 +1,10 @@
+{
+    "optimal_threshold": 0.31999999999999995,
+    "baseline_default_threshold": 0.5,
+    "target_lead_time_hours": 24,
+    "decision_rule": "Trigger flood alert if predicted_probability >= 0.32",
+    "test_recall": 0.989010989010989,
+    "test_precision": 0.48257372654155495,
+    "test_f2_score": 0.8174386920980926,
+    "test_cost_reduction_pct": 49.88235294117647
+}

@@ -1,0 +1,53 @@
+[
+    {
+        "Strategy": "Baseline Status-Quo (LightGBM Unweighted, tau=0.5)",
+        "threshold": 0.5,
+        "recall": 0.7857142857142857,
+        "precision": 0.8033707865168539,
+        "f2_score": 0.7891832229580574,
+        "f1_score": 0.7944444444444444,
+        "roc_auc": 0.9892375438812588,
+        "pr_auc": 0.8756845387747677,
+        "brier_score": 0.020324873556114308,
+        "total_cost": 425.0,
+        "normalized_cost": 0.15858208955223882,
+        "tn": 2463,
+        "fp": 35,
+        "fn": 39,
+        "tp": 143
+    },
+    {
+        "Strategy": "Champion CatBoost (Cost-Weighted, tau=0.5)",
+        "threshold": 0.5,
+        "recall": 0.967032967032967,
+        "precision": 0.5808580858085809,
+        "f2_score": 0.8535402521823472,
+        "f1_score": 0.7257731958762886,
+        "roc_auc": 0.9901569607334219,
+        "pr_auc": 0.8794811257822391,
+        "brier_score": 0.03720623340184504,
+        "total_cost": 187.0,
+        "normalized_cost": 0.06977611940298507,
+        "tn": 2371,
+        "fp": 127,
+        "fn": 6,
+        "tp": 176
+    },
+    {
+        "Strategy": "Champion CatBoost (Cost-Weighted + Tuned tau=0.32)",
+        "threshold": 0.31999999999999995,
+        "recall": 0.989010989010989,
+        "precision": 0.48257372654155495,
+        "f2_score": 0.8174386920980926,
+        "f1_score": 0.6486486486486487,
+        "roc_auc": 0.9901569607334219,
+        "pr_auc": 0.8794811257822391,
+        "brier_score": 0.03720623340184504,
+        "total_cost": 213.0,
+        "normalized_cost": 0.07947761194029851,
+        "tn": 2305,
+        "fp": 193,
+        "fn": 2,
+        "tp": 180
+    }
+]

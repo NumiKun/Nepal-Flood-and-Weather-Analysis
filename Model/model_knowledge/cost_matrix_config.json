@@ -1,0 +1,7 @@
+{
+    "cost_false_negative": 10.0,
+    "cost_false_positive": 1.0,
+    "cost_true_negative": 0.0,
+    "cost_true_positive": 0.0,
+    "cost_ratio_fn_to_fp": 10.0
+}
