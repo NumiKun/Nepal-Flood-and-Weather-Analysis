@@ -1,0 +1,21 @@
+# Core Data Manipulation and Numerical Computing
+numpy>=2.0.0
+pandas>=2.2.0
+
+# Machine Learning and Gradient Boosting Ensembles
+scikit-learn>=1.5.0
+lightgbm>=4.0.0
+xgboost>=2.0.0
+catboost>=1.2.0
+
+# Visualization and Exploratory Data Analysis
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Model Persistence and Utility
+joblib>=1.4.0
+
+# Jupyter Notebook Execution Environment
+ipykernel>=6.29.0
+nbformat>=5.10.0
+nbconvert>=7.16.0
